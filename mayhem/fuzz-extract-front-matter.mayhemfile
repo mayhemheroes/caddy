@@ -1,0 +1,4 @@
+project: PROJECT
+target: fuzz-extract-front-matter
+cmds:
+- cmd: /out/fuzz-extract-front-matter
