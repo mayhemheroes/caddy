@@ -1,14 +1,7 @@
 name: Cross-Build
 
 on:
-  push:
-    branches:
-      - master
-      - 2.*
-  pull_request:
-    branches:
-      - master
-      - 2.*
+  workflow_dispatch: # disabled - managed by Mayhem
 
 env:
   # https://github.com/actions/setup-go/issues/491

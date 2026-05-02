@@ -14,7 +14,7 @@
 #
 ################################################################################
 
-FROM gcr.io/oss-fuzz-base/base-builder-go-codeintelligencetesting
+FROM gcr.io/oss-fuzz-base/base-builder-go
 
 COPY . caddy
 RUN rm -rf caddy/mayhem

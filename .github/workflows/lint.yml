@@ -1,14 +1,7 @@
 name: Lint
 
 on:
-  push:
-    branches:
-      - master
-      - 2.*
-  pull_request:
-    branches:
-      - master
-      - 2.*
+  workflow_dispatch: # disabled - managed by Mayhem
 
 permissions:
   contents: read
