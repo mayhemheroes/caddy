@@ -1,0 +1,6 @@
+project: caddy
+target: fuzz-extract-front-matter
+
+cmds:
+  - cmd: /mayhem/fuzz-extract-front-matter
+    libfuzzer: true
